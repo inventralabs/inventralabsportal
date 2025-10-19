@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
   return (
     <header className="navbar">
-      <img src="/logo.png" alt="Inventra Labs" className="logo" />
+      <img src="./public/logo.png" alt="Inventra Labs" className="logo" />
       <nav>
         <a href="#about">About</a>
         <a href="#services">Services</a>
