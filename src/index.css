@@ -1,0 +1,226 @@
+
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4faff;
+  color: #1a2b4c;
+}
+
+h1, h2, h3 {
+  color: #1a2b4c;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  min-height: 50vh;
+
+  padding: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px; /* ✅ reduced horizontal padding */
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  height: 80px;
+  width: auto;
+  background-color: #ffffff;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1a2b4c;
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #e6f0ff, #f4faff);
+  flex-wrap: wrap;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+/* About */
+.about {
+  padding: 0.5px 20px;
+  text-align: center;
+  
+}
+
+.about img {
+  max-width: 1000px;
+  width: 90%;
+  margin-top: 80px;
+}
+
+/* Services */
+.services {
+  padding: 0.5px 20px;
+  background-color: #f4faff;
+  text-align: center;
+}
+
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 12px 25px 20px;
+  width: 270px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+/* Products */
+.products {
+  padding: 60px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Careers */
+.careers {
+  width: 100%;
+  padding: 100px 20px;
+  text-align: center;
+  background-color: #e6f0ff;
+}
+
+/* contact */
+.contact {
+  padding: 120px 20px;
+  background-color: #e6f0ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    padding: 20px 140px; /* restore for tablets and desktops */
+  }
+}
+
+.contact-details {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #1a2b4c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.footer a {
+  color: #a0c4ff;
+  margin: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}
+
+
+/* src/styles/VisitorCounter.css */
+.visitor-counter {
+  font-size: 0.2rem;
+  color: #092024;
+  font-weight: 800;
+  margin-top: 15px;
+  text-align: right;
+}

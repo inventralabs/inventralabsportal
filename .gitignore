@@ -1,0 +1,34 @@
+# 🔧 Node dependencies
+node_modules/
+visitor-backend/node_modules/
+
+# 🔐 Environment variables
+.env
+visitor-backend/.env
+
+# 🛠️ Build output
+build/
+dist/
+visitor-backend/dist/
+
+# 🧪 Logs and temp files
+*.log
+*.tmp
+
+# 🧠 IDE/editor configs
+.vscode/
+.idea/
+
+# 🖥️ OS-specific files
+.DS_Store
+Thumbs.db
+
+# 📦 Package lock (optional if you prefer yarn)
+package-lock.json
+visitor-backend/package-lock.json
+
+# 📁 Custom folders (if used)
+uploads/
+temp/
+coverage/
+
