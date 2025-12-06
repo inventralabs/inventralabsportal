@@ -18,12 +18,13 @@ export default function App() {
       <Header />
       <div style={{ padding: "20px" }}>
         <Routes>              
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Products" element={<Products />} />
           <Route path="/Careers" element={<Careers />} />
           <Route path="/Contact" element={<Contact />} />
+           <Route path="*" element={<Home />} />
         </Routes>
       </div>
           <Footer/>

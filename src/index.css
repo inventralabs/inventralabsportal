@@ -157,7 +157,7 @@ nav a {
 
 @media (min-width: 768px) {
   .contact {
-    padding: 20px 140px; /* restore for tablets and desktops */
+    padding: px 140px; /* restore for tablets and desktops */
   }
 }
 
