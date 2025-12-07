@@ -1,15 +1,13 @@
-
-
 /* General Styles */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f4faff;
-  color: #1a2b4c;
+  background-color: #f7f7f7;
+  color: #81848d;
 }
 
 h1, h2, h3 {
-  color: #1a2b4c;
+  color: #2a4377;
 }
 
 .home {
@@ -191,7 +189,7 @@ nav a {
   background-color: #1a2b4c;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 2px;
   align-items: center;
   flex-wrap: wrap;
   box-sizing: border-box;

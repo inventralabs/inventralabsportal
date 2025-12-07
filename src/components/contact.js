@@ -48,19 +48,25 @@ const Contact = () => {
         {/* Contact Info */}
         <HoverTile>
           <h3 style={{ color: "#1976d2", marginBottom: "15px" }}>Contact Info</h3>
-          <p><b>📍 Address:</b> #35, 7th Cross, RKM Layout Phase 3 Rd, Margondanahalli Bengaluru, Karnataka 560036</p>
+          <p><b>📍 Address:</b><br />
+            #35, 7th Cross,<br />
+            RKM Layout Phase 3 Road,<br />
+            Margondanahalli, Bengaluru,<br />
+            Karnataka - 560036
+          </p>
+
           <p><b>📞 Phone:</b> +91 9686602311</p>
           <p><b>📧 Email:</b> info@inventralabs.com</p>
         </HoverTile>
 
-                {/* Social Media */}
+        {/* Social Media */}
         <HoverTile>
           <h3 style={{ color: "#1976d2", marginBottom: "15px" }}> Social Media</h3>
-      <p><strong>🔗 Connect with us:</strong></p>
-      <ul>
-        <li><a href="https://www.instagram.com/inventralabs" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-        <li><a href="https://www.linkedin.com/company/109334935/admin/dashboard/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-      </ul>
+          <p><strong>🔗 Connect with us:</strong></p>
+          <ul>
+            <li><a href="https://www.instagram.com/inventralabs" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/109334935/admin/dashboard/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
 
         </HoverTile>
 
@@ -85,5 +91,4 @@ const Contact = () => {
     </div>
   );
 };
-
 export default Contact;
